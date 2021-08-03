@@ -35,3 +35,10 @@ var lastelement = ages.pop();
 console.log(ages);
 console.log(lastelement);
 
+//insert element in a array of 1st index
+ages.unshift(12,188,234);
+console.log(ages);
+
+//delete element in a array of 1st index
+ages.shift();
+console.log(ages);
